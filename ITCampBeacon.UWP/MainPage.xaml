@@ -1,0 +1,13 @@
+﻿<Page
+    x:Class="ITCampBeacon.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ITCampBeacon.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="grdPage" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock VerticalAlignment="Center" Text="Looking for the beacon" HorizontalAlignment="Stretch" TextAlignment="Center" TextWrapping="WrapWholeWords" x:Name="lblDistance" FontSize="18"/>
+    </Grid>
+</Page>
